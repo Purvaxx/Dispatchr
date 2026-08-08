@@ -1,4 +1,4 @@
-# 🚕 Dispatchr — Real-Time Dispatch Engine
+# Dispatchr - Real-Time Dispatch Engine
 
 A real-time driver-matching system built from scratch — simulates a live fleet of drivers on a map and instantly matches riders to the **nearest available driver** using a custom-built **quadtree spatial index**, streamed over WebSockets.
 
