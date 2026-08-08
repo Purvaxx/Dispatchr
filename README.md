@@ -1,4 +1,4 @@
-# 🚕 Nearest Driver — Real-Time Dispatch Engine
+# 🚕 Dispatchr — Real-Time Dispatch Engine
 
 A real-time driver-matching system built from scratch — simulates a live fleet of drivers on a map and instantly matches riders to the **nearest available driver** using a custom-built **quadtree spatial index**, streamed over WebSockets.
 
@@ -8,15 +8,7 @@ A real-time driver-matching system built from scratch — simulates a live fleet
 
 ## Demo
 
-<!--
-  1. Record a 10-20 sec clip of clicking the map and watching a driver get matched.
-  2. Go to this repo → Issues → New Issue → drag the video file into the text box.
-  3. GitHub generates a link like: https://github.com/user-attachments/assets/xxxx
-  4. Replace the line below with that link (on its own line, no markdown syntax needed —
-     GitHub renders it as an inline video player automatically).
--->
-
-_Video demo coming soon — click below to run it locally in the meantime._
+https://github.com/user-attachments/assets/950fd64d-f296-4e3b-811b-5ef2ced647ea
 
 ---
 
@@ -30,11 +22,11 @@ Most portfolio projects are either CRUD apps or an isolated LeetCode-style data 
 
 ## Features
 
-- 🗺️ **Live simulated fleet** — 40 drivers moving continuously on a 1000×1000 grid, broadcast to all clients every 200ms
-- 📍 **Instant nearest-match** — quadtree-backed nearest-neighbor search instead of brute-force O(n) scans
-- ⚡ **Real-time updates** — WebSocket-based (Socket.io), no polling
-- ✅ **Correctness-tested** — quadtree results verified against brute-force search across 500 random points / 50 queries, zero mismatches
-- 🎨 **Zero-build frontend** — plain Canvas + JS, no framework or bundler required
+- **Live simulated fleet** — 40 drivers moving continuously on a 1000×1000 grid, broadcast to all clients every 200ms
+- **Instant nearest-match** — quadtree-backed nearest-neighbor search instead of brute-force O(n) scans
+- **Real-time updates** — WebSocket-based (Socket.io), no polling
+- **Correctness-tested** — quadtree results verified against brute-force search across 500 random points / 50 queries, zero mismatches
+- **Zero-build frontend** — plain Canvas + JS, no framework or bundler required
 
 ## Architecture
 
